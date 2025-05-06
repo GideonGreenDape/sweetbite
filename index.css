@@ -1,0 +1,54 @@
+body{
+   background-image: url('./image/backgroundimage.png');
+   background-repeat: no-repeat;
+   background-size: 100vw 620px;
+   background-position: center;
+   height: 600px;   
+}
+
+
+header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#header_navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1050px;
+    height: 80px;
+    align-items: center;
+}
+
+#logo_image{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 411px;
+    height: 17px;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#header_carticon{
+    width: fit-content;
+    height: fit-content
+}
+
+#header_carticon img{
+    width: 16px;
+    height: 16px;
+}
